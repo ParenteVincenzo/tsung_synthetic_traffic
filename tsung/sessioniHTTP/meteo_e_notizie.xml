@@ -1,0 +1,1656 @@
+<session name='meteo_e_notizie' probability='10'  type='ts_http'>
+
+<!--L'utente si collega al sito "http://www.meteoam.it/"-->
+<request><http url='http://www.meteoam.it/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://www.meteoam.it/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/css/css_vZ_wrMQ9Og-YPPxa1q4us3N7DsZMJa-14jShHgRoRNo.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/css/css_8NRk99x4AMlmug2OHKJ8Fi1t7FI1UtRBbyT9Xz-rQsI.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/css/css_0QoIUCOGyWv0x1FX8MHnb1Jf7HGtUGwbCxo3mMWwCsU.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/css/css_OWTmvYroG5_IsFgNxiyf8hrK9DYRaexZpGlAswfG1Pg.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://code.jquery.com/jquery-1.10.2.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.meteoam.it/sites/default/files/js/js_38VWQ3jjQx0wRFj7gkntZr077GgJoGn5nv3v05IeLLo.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_ABnUy3xVmUriooRtyOSaXzMUHyMttnctTQJqz5eEpgA.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_iE8xXyAcZkIcCm3KW46lnulx78Wr477qkCJ9vZVW1D4.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_Re8pbR3E09zmXHBISePcYGpWfh2CF4LgZ5Wod08Fjrg.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_syFw7Nqbus4RApJCoN4DlpC7nQI_1playRhaIdmqNv0.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_W7Z8WdU1jUCVDqg0DDFkaMCprgEdPaOC6ShJde30NT0.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_ysImPqMOlkZDZ7nU42YI1AYQU3y6XXaN1skZSusFarI.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/libraries/wz_tooltip/wz_tooltip.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_SxkkhT-8p90MrLZ3rUAYl-l5SrMZJyE3YTi_ZtSM9Fo.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/logo-difesa.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/logo.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/logo_am.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconeservizi/Twitter.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconeservizi/Facebook.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://www.google-analytics.com/analytics.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.meteoam.it/images/iconeservizi/Rss.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconeservizi/youtube.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/colonna_sinistra/public/iconasinistra_tricolore.jpg?itok=kLAhYAu1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/colonna_sinistra/public/ambiente.jpg?itok=sm52MG6A' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/colonna_sinistra/public/biblio_0.jpg?itok=bXBfl5An' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/colonna_sinistra/public/wmo5.png?itok=VHk-RQvc' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/colonna_sinistra/public/richiesta_dati.jpg?itok=et53UwDg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/colonna_sinistra/public/imgnewsletter-new.png?itok=3_ySvCn-' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconeservizi/playstore.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconeservizi/appstore.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/cartine/italia_540_712.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconemeteo/notte/32x32/sereno.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconemeteo/notte/32x32/nuvoloso.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconemeteo/notte/32x32/poco_nuvoloso.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconemeteo/notte/32x32/coperto.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Storagerw/drupal/files/moviola/thumb_CNMC_MET_202107051445_EUROPA_I108@@@@_@@@@@@@@@@@@_@@@_000_@@@@.JPG' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Storage/Meteomar/meteomar.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/images/copertina_2_2021.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/modules/custom/mygallery/images/img_201512141517_first.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/sidebar_news/public/wr-logo-dark_.jpg?itok=4usbPxJL' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/bg-previsionelocalita.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/font/OpenSans-Regular-webfont.woff' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/sidebar_news/public/sigla_0.jpg?itok=k8BK4tEI' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/footer_am.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/modules/contrib/ajaxblocks/images/loader-4.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/font/OpenSans-Semibold-webfont.woff' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/fonts/glyphicons-halflings-regular.woff2' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://wwis.meteoam.it/it/widget.html?sty=22&amp;name=New+York+City,+New+York,+Stati+Uniti+d%27America' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.meteoam.it/sites/all/themes/meteoam/css/img-stile/bg-newsam.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/bg-footer.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/modules/contrib/extlink/extlink_s.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/ajaxblocks?blocks=ricerca_localita-ricerca_previsioni_localita_hp/previsioni-previsioni_hp/temperature-temperature_osservate&amp;path=node/675&amp;nocache=1&amp;_=1625499504411' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/Storagerw/drupal/files/moviola/thumb_CNMC_MET_202107051430_EUROPA_I108@@@@_@@@@@@@@@@@@_@@@_000_@@@@.JPG' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Storagerw/drupal/files/moviola/thumb_CNMC_MET_202107051415_EUROPA_I108@@@@_@@@@@@@@@@@@_@@@_000_@@@@.JPG' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Storagerw/drupal/files/moviola/thumb_CNMC_MET_202107051400_EUROPA_I108@@@@_@@@@@@@@@@@@_@@@_000_@@@@.JPG' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Storagerw/drupal/files/moviola/thumb_CNMC_MET_202107051345_EUROPA_I108@@@@_@@@@@@@@@@@@_@@@_000_@@@@.JPG' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://wwis.meteoam.it/styles/jquery-ui.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/styles/widget_it.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/scripts/jquery-1.6.2.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/scripts/jquery-ui.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/scripts/moment-with-langs.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.meteoam.it/images/iconemeteo/giorno/32x32/sereno.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconemeteo/giorno/32x32/nuvoloso.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/vento-w.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/vento-sw.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/vento-n.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://wwis.meteoam.it/it/json/QuickSearch_it.xml' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/plain, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/images/widget/widget_white_bg.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/widget/footer.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/widget/search.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.meteoam.it/sites/all/themes/meteoam/css/font/OpenSans-Bold-webfont.woff' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/font/OpenSans-Light-webfont.woff' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://www.meteoam.it/sites/all/themes/meteoam/favicon.ico' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://wwis.meteoam.it/it/json/278_it.xml' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/plain, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/styles/images/ui-bg_flat_75_ffffff_40x100.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/widget/24a.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/widget/10.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/widget/2.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/widget/9.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo stimato in cui l'utente visualizza la pagina e poi inizia ad inserire il nome della località nella barra di ricerca-->
+<thinktime random='true' value='10'/>
+
+<!--Inizia ad inserire il nome della località-->
+<request><http url='http://www.meteoam.it/index.php?q=ricerca_localita/autocomplete/tele' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/ricerca_localita/autocomplete/tele' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/index.php?q=ricerca_localita/autocomplete/telese' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/ricerca_localita/autocomplete/telese' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+
+<thinktime random='true' value='2'/>
+
+<!--Clicca su "cerca"-->
+<request><http url='/node/675' version='1.1'  contents='ricerca_localita=TELESE+TERME&amp;form_build_id=form-rlrnT8HKv-Mclzvr-CHjsSLdaehp_mdgs2dL_HK9_MU&amp;form_id=ricerca_localita_form' content_type='application/x-www-form-urlencoded' method='POST'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='Cache-Control' value='max-age=0' /></http></request>
+<request><http url='/ta/previsione/6781/telese_terme' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='Cache-Control' value='max-age=0' /></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/sites/default/files/js/js_RaCQPb_nprj9wXeADpsRwx_dpPhRD27x-1kgWj7AXNQ.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_tTe8s52PXza2kBrBU3Wup55c8x4RPEgUeHJ_ly0VzMw.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_BYgqfOQ5v7Byy6YAk9sVb3w9AiamesRmeWcqyZn77vY.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconemeteo/giorno/32x32/poco_nuvoloso.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/modules/custom/mygallery/images/img_201512041533_first.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/font/OpenSans-ExtraBold-webfont.woff' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/ajaxblocks?blocks=ricerca_localita-ricerca_previsioni_localita_hp/previsioni-previsioni_hp/temperature-temperature_osservate&amp;path=ta/previsione/6781/telese_terme&amp;nocache=1&amp;_=1625499525369' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+
+<!--Tempo in cui vede un po' i risultati della ricerca 40-->
+<thinktime random='true' value='40'/>
+
+<!--Cerca il meteo per un'altra località-->
+<request><http url='http://www.meteoam.it/index.php?q=ricerca_localita/autocomplete/amoro' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/ricerca_localita/autocomplete/amoro' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/index.php?q=ricerca_localita/autocomplete/amoros' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/ricerca_localita/autocomplete/amoros' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+
+<thinktime random='true' value='1'/>
+
+<!--Clicca su "cerca"-->
+<request><http url='/ta/previsione/6781/telese_terme' version='1.1'  contents='ricerca_localita=AMOROSI&amp;form_build_id=form-1ZVRYA4SrrlIx0Ha0S54p3-gfo6qqwHavPggM4PqFqw&amp;form_id=ricerca_localita_form' content_type='application/x-www-form-urlencoded' method='POST'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='Cache-Control' value='max-age=0' /></http></request>
+<request><http url='/ta/previsione/7464/amorosi' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='Cache-Control' value='max-age=0' /></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/sites/all/modules/custom/mygallery/images/img_201710272051_first.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/ajaxblocks?blocks=ricerca_localita-ricerca_previsioni_localita_hp/previsioni-previsioni_hp/temperature-temperature_osservate&amp;path=ta/previsione/7464/amorosi&amp;nocache=1&amp;_=1625499549270' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+
+<!--Tempo stimato in cui l'utente controlla i risultati della ricerca -->
+<thinktime random='true' value='70'/>
+
+<!--Si collega al sito "http://www.strettoweb.com/"-->
+<request><http url='http://www.strettoweb.com/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/wp-content/cache/autoptimize/css/autoptimize_aab217e17a4ec534689fa785c9fb5206.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/cache/autoptimize/css/autoptimize_e94d2f22fe0305f490606b763950bd16.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-includes/js/jquery/jquery-migrate.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/amazon-polly/public/js/amazonpolly-public.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/google-analytics-premium/assets/js/frontend-gtag.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-includes/js/jquery/jquery.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://api.dmcdn.net/all.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://www.strettoweb.com/wp-content/plugins/smiling-video/js/sm-common-func.js?smver=1.1.7&amp;ver=4.9.18' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/smio-push-notification/js/frontend.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/inc/js/contentslider.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/inc/js/flowplayer/flowplayer-3.2.6.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/inc/js/slides.min.jquery.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://www.strettoweb.com/wp-content/themes/newspro/inc/js/superfish-1.4.8.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/inc/js/jquery.tools.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/inc/js/jCarouselLite.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/inc/js/device.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/inc/js/responsiveslides.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/inc/js/jquery.lazyload.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/video-list-manager/js/jquery.colorbox-min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/video-list-manager/js/custom.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/zeno-font-resizer/js/js.cookie.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/zeno-font-resizer/js/jquery.fontsize.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/wp-lightbox-2/wp-lightbox-2.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-includes/js/wp-embed.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/smio-push-notification/js/tooltipster.bundle.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/smio-push-notification/js/frontend_webpush.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Vimeo/pbl/video.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.strettoweb.com/Vimeo/pbl/ie8/videojs-ie8.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://www.gstatic.com/firebasejs/7.2.2/firebase-messaging.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://clickio.mgr.consensu.org/t/consent_221266.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://connect.facebook.net/it_IT/sdk.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.strettoweb.com/Vimeo/pbl/js/videojs.ami.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Vimeo/js/player.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Vimeo/pbl/js/prolls.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Vimeo/pbl/js/can-autoplay.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/uploads/2016/04/logo_sw_2k16_2.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.strettoweb.com/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F07%2Fprotesta-coolap-7.jpeg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2FRoberto-Mancini-1.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F08%2Fmedici-medico-medicina.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F10%2Farresto-polizia.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FPgs-Don-Bosco-2000.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fdi-iuorio-ro-racing-molise.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F05%2FVincenzo-Nibali-e1621419095160.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fcarabinieri-arresto-migrante.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarabinieri-arrestano-scafisti.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FConpait-e-Fabbri-1905-1.jpeg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F01%2Fregione-sicilia.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Freggio-calabria-senzacqua.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarabinieri-reggio-calabria.jpeg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fraffaella-carr%C3%A0.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fscholas-cittadinanza.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F07%2Freggio-calabria-dallalto.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarminello-reggina.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2FBergamotto-2.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FLezione.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F05%2Fmigranti-sicilia-4.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FIncendio-Sicilia.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSpirl%C3%AC-ragazzi-girasole-della-locride-1.jpeg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fmorto-kevin-costantino-messina.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F04%2Fcarabinieri-messina-5.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcocchino-deboli-acr-messina.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FDe-Luca-consegna-alloggi.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F03%2Fcartina-calabria.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FFashion-Day-dello-Stretto-2.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F04%2Fpolo-papardo-unime-4.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcontrollo-elettronico-velocit%C3%A0.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F05%2FMatteo-Berrettini-e1620584739997.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F03%2Freggio-calabria-giorno-coronavirus-18.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FRifiuti.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fitalo-blujet-collegamenti-stretto-di-messina.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FReggioforLife-9.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F02%2Fpapa-francesco-1.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FVilla-Taormina-1.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarabinieri-ris-omicidio-2.jpeg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FEmiliano-Bonazzoli-Reggina.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FComprensorio-ferroviario-del-porto-di-gioia-tauro.png&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fordine-assistenti-sociali-1.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Ffrancesco-cosso-e-marcello-cadorna.jpg&amp;q=90&amp;w=250&amp;h=202&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fitalo-blujet-collegamenti-stretto-di-messina.jpg&amp;q=90&amp;w=250&amp;h=202&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fmorto-kevin-costantino-messina.jpg&amp;q=90&amp;w=250&amp;h=202&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fmorto-kevin-costantino-messina.jpg&amp;q=90&amp;w=60&amp;h=34&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Ffrancesco-cosso-e-marcello-cadorna.jpg&amp;q=90&amp;w=60&amp;h=34&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Freggio-calabria-senzacqua.jpg&amp;q=90&amp;w=60&amp;h=34&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fitalo-blujet-collegamenti-stretto-di-messina.jpg&amp;q=90&amp;w=60&amp;h=34&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Freggio-calabria-senzacqua.jpg&amp;q=90&amp;w=250&amp;h=202&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FFratelli-dItalia-tremestieri-etneo.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fmessina-incidente-scooter.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fspirl%C3%AC.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FMogol.jpeg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FRicerca-volontari-La-Provvidenza.png&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F11%2Fregione-calabria.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fklaus-davi-scritta-muri.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Ffrancesco-cosso-e-marcello-cadorna.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F02%2FCarlo-Tansi-Reggio-Calabria-5.jpeg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F12%2Fgranillo-balata.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fnello-musumeci.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcognome-foti.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2FOlimpiadi-Tokyo-2021-simbolo-3.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcartina-italia-obesit%C3%A0.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FPolizia-in-mare.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/styles/white/bgr_tabs_title.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/styles/white/bgr_tabs_title_a.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fraffaella-carr%C3%A0.jpg&amp;q=90&amp;w=200&amp;h=112&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FFelix-Brych.jpg&amp;q=90&amp;w=200&amp;h=112&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FTifosi-Belgio.jpg&amp;q=90&amp;w=200&amp;h=112&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fde-luca-falcomat%C3%A0.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Ffoto-della-mostra-2.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FFelix-Brych.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F12%2Frosy-perrone.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Ftorre-faro.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FPiccole-atlete-della-Reggio-Ritmica-1.jpeg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FGermol%C3%A8-Sgr%C3%B2.jpg&amp;q=90&amp;w=35&amp;h=35&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Ftemperature-massime-1-luglio.png&amp;q=90&amp;w=200&amp;h=112&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2FRoberto-Mancini-1.jpg&amp;q=90&amp;w=200&amp;h=112&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fsequestro-droga-italia-albania.jpg&amp;q=90&amp;w=200&amp;h=112&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FValentina-D%E2%80%99Urbano-al-Mondadori-Bookstore-1.jpg&amp;q=90&amp;w=200&amp;h=112&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/images/framework/search.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://www.strettoweb.com/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2F1-19.jpg&amp;q=90&amp;w=200&amp;h=112&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2F1-18.jpg&amp;q=90&amp;w=200&amp;h=112&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F10%2Farresto-polizia.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F01%2Fregione-sicilia.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F05%2FVincenzo-Nibali-e1621419095160.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://cdn.clickiocdn.com/t/cmp/vendor-list.json' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.strettoweb.com/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FLezione.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcocchino-deboli-acr-messina.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FDe-Luca-consegna-alloggi.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://clickiocdn.com/consent/log/?r=969784389&amp;site_id=221266&amp;version=1.2&amp;csid=2748&amp;tcf2=1&amp;state=2' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.strettoweb.com/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F04%2Fpolo-papardo-unime-4.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FVilla-Taormina-1.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fmessina-incidente-scooter.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcognome-foti.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FPolizia-in-mare.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fde-luca-falcomat%C3%A0.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F07%2Fprotesta-coolap-7.jpeg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarabinieri-arrestano-scafisti.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F08%2Fmedici-medico-medicina.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fcarabinieri-arresto-migrante.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://fonts.googleapis.com/css?family=Tinos:400,400italic,700,700italic' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.strettoweb.com/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FConpait-e-Fabbri-1905-1.jpeg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarabinieri-reggio-calabria.jpeg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fscholas-cittadinanza.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F07%2Freggio-calabria-dallalto.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarminello-reggina.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/06/santa-caterina-dalessandria-opera-di-giuseppe-bottone.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/06/fiera-del-tempo-libero-a-messina.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/cognome-foti.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/06/Pasta-ncasciata-commissario-Montalbano.jpeg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/06/castello-di-milazzo-2.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/Mucca-Lapuni.jpeg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2FBergamotto-2.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F05%2Fmigranti-sicilia-4.jpg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSpirl%C3%AC-ragazzi-girasole-della-locride-1.jpeg&amp;q=90&amp;w=235&amp;h=132&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/regno-delle-due-sicilie-bronzato.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/06/gi%C3%B2-p%C3%B2-reggio-calabria-10.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/06/macelleria-malara-barbecue-chicken-friends.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/06/Roberto-Mancini-1.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2020/10/arresto-polizia.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/05/Vincenzo-Nibali-e1621419095160.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/carabinieri-arrestano-scafisti.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2019/10/carabinieri-arresto-migrante.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/Conpait-e-Fabbri-1905-1.jpeg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/01/regione-sicilia.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/carabinieri-reggio-calabria.jpeg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/reggio-calabria-senzacqua.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/raffaella-carr%C3%A0.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/carminello-reggina.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/Incendio-Sicilia.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/morto-kevin-costantino-messina.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/04/carabinieri-messina-5.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/cocchino-deboli-acr-messina.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2020/03/cartina-calabria.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2FRoberto-Mancini-1.jpg&amp;q=90&amp;w=390&amp;h=250&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F10%2Farresto-polizia.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F05%2FVincenzo-Nibali-e1621419095160.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarabinieri-arrestano-scafisti.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fcarabinieri-arresto-migrante.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FConpait-e-Fabbri-1905-1.jpeg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F01%2Fregione-sicilia.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FValentina-D%E2%80%99Urbano-al-Mondadori-Bookstore-1.jpg&amp;q=90&amp;w=390&amp;h=250&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSelezione-zonale-Optimist-a-reggio-calabria-3.jpeg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fmarcello-cordiano-futsal-polistena.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2FManifestazione-migranti-piazza-italia-17.jpeg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2Faurora-celli-a-reggio-calabria-13.jpeg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2FGiovanni-Verduci.png&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2FMilia.png&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F01%2Fassistenti-educativi-1.jpg&amp;q=90&amp;w=390&amp;h=250&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F01%2Fatam.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F08%2Fruota-panoramica-13.jpeg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2017%2F10%2Freggio-calabria-stretto-di-messina-dallalto-8.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2015%2F09%2F11-settembre.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2015%2F08%2FStrage-Bologna-8.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2017%2F04%2Foperazione-alcova-facchineri-giuseppe-3.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarminello-reggina.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcocchino-deboli-acr-messina.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F05%2FMatteo-Berrettini-e1620584739997.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FEmiliano-Bonazzoli-Reggina.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Ffrancesco-cosso-e-marcello-cadorna.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fmedium_161229-233406_to230716spe_3841.jpg&amp;q=90&amp;w=390&amp;h=250&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2017%2F09%2Fvico-ferruccio-2.jpeg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://cdn.clickiocdn.com/t/cmp/purposes-it.json' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.strettoweb.com/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2017%2F06%2Ffrigorifero-da-incasso-gaggenau-rc-289.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2016%2F11%2Fsoldi.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2015%2F11%2FAllievi-carabinieri.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2015%2F06%2Fguardia-di-finanza.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2017%2F03%2Fscuole-militari.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F04%2Ffoto7-ciambelle-fritte.jpg&amp;q=90&amp;w=390&amp;h=250&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F04%2F57109907_525125924682088_2518436584626323456_n.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fzeppole.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F03%2Frisotto-alla-zucca.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F03%2F53636730_336924023616717_2005620972702400512_n.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F03%2FTORTA-MIMOSA-1.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fmelanzane-ripiene.jpg&amp;q=90&amp;w=160&amp;h=150&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FConpait-e-Fabbri-1905-1.jpeg&amp;q=90&amp;w=230&amp;h=129&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarabinieri-ris-omicidio-2.jpeg&amp;q=90&amp;w=230&amp;h=129&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSpirl%C3%AC-ragazzi-girasole-della-locride-1.jpeg&amp;q=90&amp;w=230&amp;h=129&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Ffoto-della-mostra-2.jpg&amp;q=90&amp;w=230&amp;h=129&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Faddestramento-congiunto-in-Aspromonte-3.jpg&amp;q=90&amp;w=230&amp;h=129&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fparcheggio-selvaggio-isola-pedonale-reggio-calabria-2.jpg&amp;q=90&amp;w=230&amp;h=129&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FValentina-D%E2%80%99Urbano-al-Mondadori-Bookstore-1.jpg&amp;q=90&amp;w=230&amp;h=129&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/images/footer/logo_infoit.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/images/footer/logo_mw.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/images/footer/logo_cw.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/images/footer/logo_sf.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/images/footer/logo_es.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://clickiocdn.com/consent/log/?r=970062677&amp;site_id=221266&amp;version=1.2&amp;csid=2748&amp;tcf2=1&amp;state=10' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.strettoweb.com/wp-content/themes/newspro/images/footer/logo_mt.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/images/footer/logo_corriere.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/images/footer/logo_tuttosport.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/images/footer/logo_iltempo.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/images/footer/ico_fb_wt.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/images/footer/ico_tw_wt.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/images/footer/ico_ig_wt.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-includes/js/wp-emoji-release.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Vimeo/pbl/css/play.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/styles/white/icons/prev.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/styles/white/icons/next.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/styles/white/icons/photo.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/cache/autoptimize/css/autoptimize_90706e8cc5b91dddcf60d87fd57996e0.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://cdn.clickiocdn.com/t/cmp/google-vendor-list.json' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.strettoweb.com/wp-content/themes/newspro/styles/white/icons/arrow-superfish-down.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='https://clickiocdn.com/consent/log/?r=970203758&amp;site_id=221266&amp;version=1.2&amp;csid=2748&amp;tcf2=1&amp;state=12&amp;pcs=1%7C1%7C1%7C1&amp;tcs=CPI35IPPI35IPA_ADAITBhCsAP_AAH_AAAAAIBtf_X__bX9j-_59f_t0eY1P9_r_v-Qzjhfdt-8N2L_W_L0X42E7NF3apq4KuR4Eu3LBIQNlHMHUTUmw6okVrzPsak2Mr7NKJ7LEmnMZe2dYGHtfn91TuZKY7_78_9fz3z-v_v___9f3r-3_3__59X---_e_V399zLv9_____9nN_4IAgEmGpfABdiWODJtGlUKIEYVhIdAKACigGFomsIGBwU7KwCPUELABCagIwIgQYgoxYBAAIBAEhEQEgB4IBEARAIAAQAqQEIACJgEFgBYGAQACgGhYgRQBCBIQZHBUcpgQESLRQT2VgCUXexphCGUWAFAo_oqMBEoQQLAyEhYOY4AgAAAA.YAAAAAAAAAAA' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.strettoweb.com/favicon.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo in cui l'utente guarda la pagina in cerca della sezione che desidera-->
+<thinktime random='true' value='20'/>
+
+<!--Clicca su "Norizie dall'italia"-->
+<request><http url='/category/notizie-dallitalia/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fraffaella-carr%C3%A0.jpg&amp;q=90&amp;w=320&amp;h=200&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F04%2Fcoronavirus-italia-12.jpg&amp;q=90&amp;w=140&amp;h=78&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F04%2FDdl-zan.jpg&amp;q=90&amp;w=140&amp;h=78&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2014%2F03%2Fpapa_francesco_1.jpg&amp;q=90&amp;w=140&amp;h=78&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F02%2Fpapa-francesco-1.jpg&amp;q=90&amp;w=140&amp;h=78&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F05%2Fmigranti-sicilia-3.jpg&amp;q=90&amp;w=140&amp;h=78&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F04%2Fcoronavirus-italia.jpg&amp;q=90&amp;w=140&amp;h=78&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2017%2F09%2Fisee-tasse.jpg&amp;q=90&amp;w=140&amp;h=78&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fsequestro-droga-italia-albania.jpg&amp;q=90&amp;w=140&amp;h=78&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcentro-vaccini-bolzano.jpg&amp;q=90&amp;w=140&amp;h=78&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://cdn.clickiocdn.com/t/cmp/vendor-list.json' version='1.1' if_modified_since='Fri, 02 Jul 2021 02:05:04 GMT' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.strettoweb.com/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F07%2Fprotesta-coolap-7.jpeg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F08%2Fmedici-medico-medicina.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarabinieri-arrestano-scafisti.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fcarabinieri-arresto-migrante.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F10%2Farresto-polizia.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F05%2FVincenzo-Nibali-e1621419095160.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/styles/white/bgr_mag_fea.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F01%2Fregione-sicilia.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FLezione.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2FRoberto-Mancini-1.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcarminello-reggina.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fcocchino-deboli-acr-messina.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FValentina-D%E2%80%99Urbano-al-Mondadori-Bookstore-1.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSelezione-zonale-Optimist-a-reggio-calabria-3.jpeg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fmarcello-cordiano-futsal-polistena.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2FManifestazione-migranti-piazza-italia-17.jpeg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F01%2Fassistenti-educativi-1.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2019%2F01%2Fatam.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2020%2F08%2Fruota-panoramica-13.jpeg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2017%2F10%2Freggio-calabria-stretto-di-messina-dallalto-8.jpg&amp;q=90&amp;w=137&amp;h=95&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/styles/white/icons/date.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/styles/white/icons/folder.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/bgTitBoxArticoli.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://cdn.clickiocdn.com/t/cmp/purposes-it.json' version='1.1' if_modified_since='Fri, 02 Jul 2021 02:05:06 GMT' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://clickiocdn.com/consent/log/?r=971066587&amp;site_id=221266&amp;version=1.2&amp;csid=2748&amp;tcf2=1&amp;state=14' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo in cui l'utente gira fra le notizie e sceglie quale consultare-->
+<thinktime random='true' value='15'/>
+
+<!--Apre una notizia-->
+<request><http url='http://www.strettoweb.com/2021/07/morta-raffaella-carra/1207333/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/wp-content/uploads/timthumb.php?src=http://www.strettoweb.com/wp-content/uploads/2021/07/raffaella-carr%C3%A0.jpg&amp;q=100&amp;w=638&amp;zc=1&amp;a=c' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2F1-19.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/newspro/timthumb.php?src=http%3A%2F%2Fwww.strettoweb.com%2Fwp-content%2Fuploads%2F2021%2F06%2F1-18.jpg&amp;q=90&amp;w=70&amp;h=70&amp;zc=1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://cdn.clickiocdn.com/t/cmp/vendor-list.json' version='1.1' if_modified_since='Fri, 02 Jul 2021 02:05:04 GMT' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.strettoweb.com/wp-content/themes/newspro/styles/white/icons/author.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://cdn.clickiocdn.com/t/cmp/purposes-it.json' version='1.1' if_modified_since='Fri, 02 Jul 2021 02:05:06 GMT' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://cdn.taboola.com/libtrc/ergodigitalnetwork-strettoweb/loader.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://clickiocdn.com/consent/log/?r=978672264&amp;site_id=221266&amp;version=1.2&amp;csid=2748&amp;tcf2=1&amp;state=14' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+  
+  <!--Tempo medio di lettura della notizia-->
+<thinktime random='true' value='75'/>
+  
+</session>

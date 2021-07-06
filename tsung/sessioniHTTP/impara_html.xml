@@ -1,0 +1,112 @@
+<session name='impara_html' probability='10'  type='ts_http'>
+
+<!--Utente cerca una guida per imparare html collegandosi all'indirizzo "http://informatica.abaluth.com"-->
+
+<request><http url='http://informatica.abaluth.com/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo stimato affinché l'utente trovi il paragrafo che cerca 3 secondi-->
+<thinktime random='true' value='3'/>
+
+<!--Dopo il clic su html-->
+<request><http url='http://informatica.abaluth.com/html/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='/wp-content/uploads/2016/01/3-nt-WEB-1200.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+  
+<!--Tempo stimato affinché l'utente trovi il paragrafo che cerca 5 secondi-->
+<thinktime random='true' value='5'/>
+
+<!--clicca sul paragrafo "il tag body"-->
+<request><http url='http://informatica.abaluth.com/web/html/il-tag-body/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='/wp-content/uploads/2016/01/3-nt-WEB-1200-1024x765.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--tempo di lettura stimato 10 secondi-->
+<thinktime random='true' value='2'/>
+
+<!--ritorna alla sezione "html"-->
+<request><http url='http://informatica.abaluth.com/category/web/html/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo stimato affinché l'utente trovi il paragrafo che cerca 5 secondi-->
+<thinktime random='true' value='5'/>
+
+<!--Clicca sul paragrafo "il tag head"-->
+<request><http url='http://informatica.abaluth.com/web/html/il-tag-head/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='/wp-includes/js/comment-reply.min.js?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--tempo di lettura stimato 25 secondi-->
+<thinktime random='true' value='25'/>
+
+<!--ritorna alla sezione "html"-->
+<request><http url='http://informatica.abaluth.com/category/web/html/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo stimato affinché l'utente trovi il paragrafo che cerca 5 secondi-->
+<thinktime random='true' value='5'/>
+
+<request><http url='http://informatica.abaluth.com/web/html/tag-per-il-testo/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+  
+  <!--tempo di lettura stimato 60 secondi-->
+ <thinktime random='true' value='60'/>
+</session>

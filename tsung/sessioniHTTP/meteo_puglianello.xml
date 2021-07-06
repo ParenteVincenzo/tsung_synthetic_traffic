@@ -1,0 +1,444 @@
+<session name='meteo_puglianello' probability='25'  type='ts_http'>
+
+<!--L'utente virtuale si collega al sito "http://www.meteoam.it/"-->
+<request><http url='http://www.meteoam.it/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://www.meteoam.it/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/css/css_vZ_wrMQ9Og-YPPxa1q4us3N7DsZMJa-14jShHgRoRNo.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/css/css_8NRk99x4AMlmug2OHKJ8Fi1t7FI1UtRBbyT9Xz-rQsI.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/css/css_OWTmvYroG5_IsFgNxiyf8hrK9DYRaexZpGlAswfG1Pg.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/css/css_0QoIUCOGyWv0x1FX8MHnb1Jf7HGtUGwbCxo3mMWwCsU.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://code.jquery.com/jquery-1.10.2.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.meteoam.it/sites/default/files/js/js_38VWQ3jjQx0wRFj7gkntZr077GgJoGn5nv3v05IeLLo.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_ABnUy3xVmUriooRtyOSaXzMUHyMttnctTQJqz5eEpgA.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_iE8xXyAcZkIcCm3KW46lnulx78Wr477qkCJ9vZVW1D4.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_eli9bdkVYPafK7fVubWQhkxfZE14Rogxqvp_UYW35Io.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_syFw7Nqbus4RApJCoN4DlpC7nQI_1playRhaIdmqNv0.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_W7Z8WdU1jUCVDqg0DDFkaMCprgEdPaOC6ShJde30NT0.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_ysImPqMOlkZDZ7nU42YI1AYQU3y6XXaN1skZSusFarI.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/libraries/wz_tooltip/wz_tooltip.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_kJyei-llFoMLMfY6MH049Vu6RqzCqrTVdCJlC1wWb88.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/logo-difesa.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/logo_am.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/logo.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconeservizi/Rss.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconeservizi/Twitter.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconeservizi/Facebook.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconeservizi/youtube.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://www.google-analytics.com/analytics.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.meteoam.it/sites/default/files/styles/colonna_sinistra/public/iconasinistra_tricolore.jpg?itok=kLAhYAu1' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/colonna_sinistra/public/ambiente.jpg?itok=sm52MG6A' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/colonna_sinistra/public/wmo5.png?itok=VHk-RQvc' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/colonna_sinistra/public/richiesta_dati.jpg?itok=et53UwDg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/colonna_sinistra/public/imgnewsletter-new.png?itok=3_ySvCn-' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/colonna_sinistra/public/biblio_0.jpg?itok=bXBfl5An' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconeservizi/playstore.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconeservizi/appstore.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/cartine/italia_540_712.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconemeteo/notte/32x32/sereno.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconemeteo/notte/32x32/nuvoloso.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconemeteo/notte/32x32/poco_nuvoloso.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconemeteo/notte/32x32/coperto.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Storagerw/drupal/files/moviola/thumb_CNMC_MET_202107051430_EUROPA_I108@@@@_@@@@@@@@@@@@_@@@_000_@@@@.JPG' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Storage/Meteomar/meteomar.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/images/copertina_2_2021.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/modules/custom/mygallery/images/img_201601182110_first.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/sidebar_news/public/wr-logo-dark_.jpg?itok=4usbPxJL' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/bg-previsionelocalita.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/footer_am.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/styles/sidebar_news/public/sigla_0.jpg?itok=k8BK4tEI' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/font/OpenSans-Regular-webfont.woff' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://www.meteoam.it/sites/all/modules/contrib/ajaxblocks/images/loader-4.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/font/OpenSans-Semibold-webfont.woff' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/fonts/glyphicons-halflings-regular.woff2' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/bg-newsam.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://wwis.meteoam.it/it/widget.html?sty=22&amp;name=New+York+City,+New+York,+Stati+Uniti+d%27America' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.meteoam.it/sites/all/themes/meteoam/css/img-stile/bg-footer.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/modules/contrib/extlink/extlink_s.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/ajaxblocks?blocks=ricerca_localita-ricerca_previsioni_localita_hp/previsioni-previsioni_hp/temperature-temperature_osservate&amp;path=node/675&amp;nocache=1&amp;_=1625498924219' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/Storagerw/drupal/files/moviola/thumb_CNMC_MET_202107051415_EUROPA_I108@@@@_@@@@@@@@@@@@_@@@_000_@@@@.JPG' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Storagerw/drupal/files/moviola/thumb_CNMC_MET_202107051400_EUROPA_I108@@@@_@@@@@@@@@@@@_@@@_000_@@@@.JPG' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Storagerw/drupal/files/moviola/thumb_CNMC_MET_202107051345_EUROPA_I108@@@@_@@@@@@@@@@@@_@@@_000_@@@@.JPG' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/Storagerw/drupal/files/moviola/thumb_CNMC_MET_202107051330_EUROPA_I108@@@@_@@@@@@@@@@@@_@@@_000_@@@@.JPG' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://www.meteoam.it/images/iconemeteo/giorno/32x32/sereno.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconemeteo/giorno/32x32/nuvoloso.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/vento-w.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/vento-sw.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/vento-n.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/font/OpenSans-Bold-webfont.woff' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/font/OpenSans-Light-webfont.woff' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://wwis.meteoam.it/styles/jquery-ui.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/styles/widget_it.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/scripts/jquery-1.6.2.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/scripts/jquery-ui.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/scripts/moment-with-langs.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/it/json/QuickSearch_it.xml' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/plain, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/images/widget/widget_white_bg.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/widget/footer.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/widget/search.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/it/json/278_it.xml' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/plain, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/styles/images/ui-bg_flat_75_ffffff_40x100.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.meteoam.it/sites/all/themes/meteoam/favicon.ico' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://wwis.meteoam.it/images/widget/24a.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/widget/10.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/widget/2.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/widget/9.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo stimato prima che l'utente inserisca il nome di una località nella barra di ricerca 10 secondi-->
+<thinktime random='true' value='10'/>
+
+<request><http url='http://www.meteoam.it/index.php?q=ricerca_localita/autocomplete/pugli' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/index.php?q=ricerca_localita/autocomplete/pugli' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/ricerca_localita/autocomplete/pugli' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/index.php?q=ricerca_localita/autocomplete/pugliane' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+<request><http url='/ricerca_localita/autocomplete/pugliane' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+
+<thinktime random='true' value='2'/>
+
+<!--Dopo che l'utente ha cliccato su "cerca"-->
+<request><http url='/node/675' version='1.1'  contents='ricerca_localita=PUGLIANELLO&amp;form_build_id=form-GfWXqLOt6sHbxQ-CgfAtMNlDKDKTDmqcVVyT2hOHvqk&amp;form_id=ricerca_localita_form' content_type='application/x-www-form-urlencoded' method='POST'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='Cache-Control' value='max-age=0' /></http></request>
+<request><http url='/ta/previsione/6773/puglianello' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='Cache-Control' value='max-age=0' /></http></request>
+<request><http url='/sites/default/files/js/js_RaCQPb_nprj9wXeADpsRwx_dpPhRD27x-1kgWj7AXNQ.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_tTe8s52PXza2kBrBU3Wup55c8x4RPEgUeHJ_ly0VzMw.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/default/files/js/js_BYgqfOQ5v7Byy6YAk9sVb3w9AiamesRmeWcqyZn77vY.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/iconemeteo/giorno/32x32/poco_nuvoloso.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/modules/custom/mygallery/images/img_201512161141_first.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/font/OpenSans-ExtraBold-webfont.woff' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/ajaxblocks?blocks=ricerca_localita-ricerca_previsioni_localita_hp/previsioni-previsioni_hp/temperature-temperature_osservate&amp;path=ta/previsione/6773/puglianello&amp;nocache=1&amp;_=1625498938348' version='1.1' method='GET'>
+  <http_header name='Accept' value='application/json, text/javascript, */*; q=0.01' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+
+<request><http url='/sites/all/themes/meteoam/css/img-stile/vento-e.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/sites/all/themes/meteoam/css/img-stile/vento-s.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<!--Tempo in cui l'utente consulta il meteo 20 secondi-->
+<thinktime random='true' value='20'/>
+
+<!--Visualizza i dati sulle temperature-->
+<request><http url='/sites/all/modules/custom/tempo_in_atto/highcharts/dati_temperature.php?id=6773' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+
+<thinktime random='true' value='4'/>
+
+<!--Visualizza il meteo giornaliero-->
+<request><http url='/sites/all/modules/custom/tempo_in_atto/highcharts/dati_temperature_giornaliero.php?icao=6773' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' />
+  <http_header name='X-Requested-With' value='XMLHttpRequest' /></http></request>
+  
+  <!--Tempo morto prima di "chiudere la pagina" -->
+  <thinktime random='true' value='10'/>
+  
+</session>

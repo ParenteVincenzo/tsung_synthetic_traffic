@@ -1,0 +1,742 @@
+<session name='manuale_elettr_e_guida_informatica' probability='10'  type='ts_http'>
+
+<!--L'utente virtuale si collega al sito "http://www.manuale-pdf.it/"-->
+<request><http url='http://www.manuale-pdf.it/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://www.manuale-pdf.it/style/style.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/logo_notice.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/facebook.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/tweeter.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/googleplus.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.google.it/cse/brand?form=cse-search-box&amp;lang=it' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://pagead2.googlesyndication.com/pagead/show_ads.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.manuale-pdf.it/images/epingle.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://ssl.gstatic.com/images/icons/gplus-16.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.manuale-pdf.it/fonctions/lib/jquery-1.3.2.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/fonctions/lib/jquery-easing-1.3.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/fonctions/lib/jquery-ui-1.5.3.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/background.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/bandeau_general.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://www.gstatic.com/prose/brandjs.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.manuale-pdf.it/fonctions/lib/jquery-1.8.0.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/fonctions/lib/jquery-ui-1.8.23.custom.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/marques.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/news/PTT-apple-ipad-mini.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/news/PTT-samsung-serie9-900X4C.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/news/PTT-HTC-windows-phone-8x.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/news/PTT-panasonic-lumix-gh3.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/news/apple-ipad-mini.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/news/samsung-serie9-900X4C.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/news/HTC-windows-phone-8x.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/news/panasonic-lumix-gh3.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/app-logiciel-g.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/notices_general.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/style/transparent-bg.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://www.google.com/cse/static/images/1x/it/branding.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://apis.google.com/js/plusone.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://platform.twitter.com/widgets.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://www.manuale-pdf.it/images/logo_notices.ico' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='https://platform.twitter.com/widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=http%3A%2F%2Fwww.manuale-pdf.it' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.bnEFfFZ9cyI.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ/cb=gapi.loaded_0' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/_/scs/apps-static/_/js/k=oz.gapi.en_US.bnEFfFZ9cyI.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ/cb=gapi.loaded_1' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;count=true&amp;width=60&amp;origin=http%3A%2F%2Fwww.manuale-pdf.it&amp;url=http%3A%2F%2Fwww.manuale-pdf.it%2F&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://syndication.twitter.com/settings?session_id=1e0be80053c27cc96c526a79ba92ddc64d48bc64' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='https://accounts.google.com/o/oauth2/postmessageRelay?parent=http%3A%2F%2Fwww.manuale-pdf.it&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='https://ssl.gstatic.com/accounts/o/2038943760-postmessagerelay.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://apis.google.com/js/rpc:shindig_random.js?onload=init' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/_/scs/apps-static/_/js/k=oz.gapi.en_US.bnEFfFZ9cyI.O/m=rpc,shindig_random/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ/cb=gapi.loaded_0' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+
+<!--Tempo di scelta della sezione stimato 20 sec-->
+<thinktime random='true' value='20'/>
+
+<request><http url='http://www.manuale-pdf.it/computer/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/app-logiciel-p.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/computer.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;count=true&amp;width=60&amp;origin=http%3A%2F%2Fwww.manuale-pdf.it&amp;url=http%3A%2F%2Fwww.manuale-pdf.it%2F&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.manuale-pdf.it/favicon.ico' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://accounts.google.com/o/oauth2/postmessageRelay?parent=http%3A%2F%2Fwww.manuale-pdf.it&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://syndication.twitter.com/settings?session_id=d12784861024c706d193fd027f5d70cad69948de' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+
+<!--Tempo di scelta della sezione stimato 20 sec-->
+<thinktime random='true' value='20'/>
+
+<request><http url='http://www.manuale-pdf.it/computer/altro-computer/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;count=true&amp;width=60&amp;origin=http%3A%2F%2Fwww.manuale-pdf.it&amp;url=http%3A%2F%2Fwww.manuale-pdf.it%2F&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://accounts.google.com/o/oauth2/postmessageRelay?parent=http%3A%2F%2Fwww.manuale-pdf.it&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://syndication.twitter.com/settings?session_id=d02f4c168e77be6d64511e49625634944b01838f' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo di scelta della sezione stimato 15 sec-->
+<thinktime random='true' value='15'/>
+
+<request><http url='http://www.manuale-pdf.it/computer/altro-computer/acer/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/marque/acer.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;count=true&amp;width=60&amp;origin=http%3A%2F%2Fwww.manuale-pdf.it&amp;url=http%3A%2F%2Fwww.manuale-pdf.it%2F&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://accounts.google.com/o/oauth2/postmessageRelay?parent=http%3A%2F%2Fwww.manuale-pdf.it&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://syndication.twitter.com/settings?session_id=7032d01ce2663244117579f52315672012d37e88' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo stimato affinché selezioni il suo pc 15 sec-->
+<thinktime random='true' value='15'/>
+
+<request><http url='http://www.manuale-pdf.it/computer/altro-computer/acer/manuale-altos-g540-52979.html' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://delivery.vidible.tv/jsonp/pid=568d0547e4b02427847e8fc6/56d0d378e4b0deb4a0bfd313.js?m.hideDuration=true' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.manuale-pdf.it/images/lire-un-pdf.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/notice-pdf.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://cdn.vidible.tv/prod/player/js/21.1.313/vidible-min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.manuale-pdf.it/images/gobelets.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/images/bouton-download.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;count=true&amp;width=60&amp;origin=http%3A%2F%2Fwww.manuale-pdf.it&amp;url=http%3A%2F%2Fwww.manuale-pdf.it%2F&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;count=true&amp;width=60&amp;origin=http%3A%2F%2Fwww.manuale-pdf.it&amp;url=http%3A%2F%2Fwww.manuale-pdf.it%2F&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://accounts.google.com/o/oauth2/postmessageRelay?parent=http%3A%2F%2Fwww.manuale-pdf.it&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://syndication.twitter.com/settings?session_id=868088936fd99829003a983027c3c1802f0ef453' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://cdn.vidible.tv/beon/ext/beon.onehelper.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://cdn.vidible.tv/prod/player/js/21.1.313/extras/creativeapi.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/prod/player/js/21.1.313/extras/advertisementtext.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/prod/player/js/21.1.313/html5/player-hls-latest-min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://trk.vidible.tv/trk/action.gif?bid=5ae81d2a0a5ac30001a96fc3&amp;pid=568d0547e4b02427847e8fc6&amp;bcid=56d0d378e4b0deb4a0bfd313&amp;sid=c81888ef-aae8-4100-b08f-0d123c1ab473&amp;pv=21.1.313&amp;r=http%3A%2F%2Fwww.manuale-pdf.it%2Fcomputer%2Faltro-computer%2Facer%2Fmanuale-altos-g540-52979.html&amp;vvuid=8A98E315-9AB3-4E6E-BA0A-E9F20B6B8AAE&amp;pt=html5&amp;m.hideDuration=true&amp;action=ResourceLoaded&amp;c1=ResourceLoaded&amp;c2=http%3A%2F%2Fcdn.vidible.tv%2Fprod%2Fplayer%2Fjs%2F21.1.313%2Fextras%2Fcreativeapi.js&amp;pv=21.1.313&amp;pt=html5&amp;cb=0.09546366757900304' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/trk/action.gif?bid=5ae81d2a0a5ac30001a96fc3&amp;pid=568d0547e4b02427847e8fc6&amp;bcid=56d0d378e4b0deb4a0bfd313&amp;sid=c81888ef-aae8-4100-b08f-0d123c1ab473&amp;pv=21.1.313&amp;r=http%3A%2F%2Fwww.manuale-pdf.it%2Fcomputer%2Faltro-computer%2Facer%2Fmanuale-altos-g540-52979.html&amp;vvuid=8A98E315-9AB3-4E6E-BA0A-E9F20B6B8AAE&amp;pt=html5&amp;m.hideDuration=true&amp;action=ResourceLoaded&amp;c1=ResourceLoaded&amp;c2=http%3A%2F%2Fcdn.vidible.tv%2Fprod%2Fplayer%2Fjs%2F21.1.313%2Fextras%2Fadvertisementtext.js&amp;pv=21.1.313&amp;pt=html5&amp;cb=0.31455019537744744' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<thinktime random='true' value='3'/>
+
+<request><http url='http://cdn.vidible.tv/prod/player/js/21.1.313/coverings/skin5.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://cdn.vidible.tv/prod/player/apvid.mp4' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='identity;q=1, *;q=0' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://trk.vidible.tv/trk/action.gif?bid=5ae81d2a0a5ac30001a96fc3&amp;pid=568d0547e4b02427847e8fc6&amp;bcid=56d0d378e4b0deb4a0bfd313&amp;sid=c81888ef-aae8-4100-b08f-0d123c1ab473&amp;pv=21.1.313&amp;r=http%3A%2F%2Fwww.manuale-pdf.it%2Fcomputer%2Faltro-computer%2Facer%2Fmanuale-altos-g540-52979.html&amp;vvuid=8A98E315-9AB3-4E6E-BA0A-E9F20B6B8AAE&amp;pt=html5&amp;m.hideDuration=true&amp;action=ResourceLoaded&amp;c1=ResourceLoaded&amp;c2=http%3A%2F%2Fcdn.vidible.tv%2Fprod%2Fplayer%2Fjs%2F21.1.313%2Fcoverings%2Fskin5.js&amp;pv=21.1.313&amp;pt=html5&amp;cb=0.9293764406423515' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://cdn.vidible.tv/prod/player/js/21.1.313/skins/skin5.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://trk.vidible.tv/trk/action.gif?bid=5ae81d2a0a5ac30001a96fc3&amp;pid=568d0547e4b02427847e8fc6&amp;bcid=56d0d378e4b0deb4a0bfd313&amp;sid=c81888ef-aae8-4100-b08f-0d123c1ab473&amp;pv=21.1.313&amp;r=http%3A%2F%2Fwww.manuale-pdf.it%2Fcomputer%2Faltro-computer%2Facer%2Fmanuale-altos-g540-52979.html&amp;vvuid=8A98E315-9AB3-4E6E-BA0A-E9F20B6B8AAE&amp;pt=html5&amp;m.hideDuration=true&amp;action=LoadSkin&amp;c1=skin5&amp;cb=0.21144158174245042' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/trk/action.gif?bid=5ae81d2a0a5ac30001a96fc3&amp;pid=568d0547e4b02427847e8fc6&amp;bcid=56d0d378e4b0deb4a0bfd313&amp;sid=c81888ef-aae8-4100-b08f-0d123c1ab473&amp;pv=21.1.313&amp;r=http%3A%2F%2Fwww.manuale-pdf.it%2Fcomputer%2Faltro-computer%2Facer%2Fmanuale-altos-g540-52979.html&amp;vvuid=8A98E315-9AB3-4E6E-BA0A-E9F20B6B8AAE&amp;pt=html5&amp;m.hideDuration=true&amp;action=ResourceLoaded&amp;c1=ResourceLoaded&amp;c2=http%3A%2F%2Fcdn.vidible.tv%2Fprod%2Fplayer%2Fjs%2F21.1.313%2Fskins%2Fskin5.js&amp;pv=21.1.313&amp;pt=html5&amp;cb=0.6612172660233093' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://cdn.vidible.tv/prod/player/js/21.1.313/extras/adthumbnail.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://trk.vidible.tv/trk/action.gif?bid=5ae81d2a0a5ac30001a96fc3&amp;pid=568d0547e4b02427847e8fc6&amp;bcid=56d0d378e4b0deb4a0bfd313&amp;sid=c81888ef-aae8-4100-b08f-0d123c1ab473&amp;pv=21.1.313&amp;r=http%3A%2F%2Fwww.manuale-pdf.it%2Fcomputer%2Faltro-computer%2Facer%2Fmanuale-altos-g540-52979.html&amp;vvuid=8A98E315-9AB3-4E6E-BA0A-E9F20B6B8AAE&amp;pt=html5&amp;m.hideDuration=true&amp;action=ResourceLoaded&amp;c1=ResourceLoaded&amp;c2=http%3A%2F%2Fcdn.vidible.tv%2Fprod%2Fplayer%2Fjs%2F21.1.313%2Fextras%2Fadthumbnail.js&amp;pv=21.1.313&amp;pt=html5&amp;cb=0.8593293747868307' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<thinktime random='true' value='3'/>
+
+<request><http url='https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.manuale-pdf.it/fonctions/jquery.gdocsviewer.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/fonctions/prettyPhoto.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/fonctions/jquery.prettyPhoto.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;count=true&amp;width=60&amp;hl=it&amp;origin=http%3A%2F%2Fwww.manuale-pdf.it&amp;url=http%3A%2F%2Fwww.manuale-pdf.it%2F&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;count=true&amp;width=60&amp;hl=it&amp;origin=http%3A%2F%2Fwww.manuale-pdf.it&amp;url=http%3A%2F%2Fwww.manuale-pdf.it%2F&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://accounts.google.com/o/oauth2/postmessageRelay?parent=http%3A%2F%2Fwww.manuale-pdf.it&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.manuale-pdf.it/fonctions/prettyPhoto/default/sprite.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/fonctions/prettyPhoto/default/sprite_x.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/fonctions/prettyPhoto/default/sprite_y.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/fonctions/prettyPhoto/default/loader.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='https://syndication.twitter.com/settings?session_id=82a711ae9aea584ebc4f2550dbc7b2f02847ecd5' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://www.manuale-pdf.it/images/gobelets2.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;count=true&amp;width=60&amp;hl=it&amp;origin=http%3A%2F%2Fwww.manuale-pdf.it&amp;url=http%3A%2F%2Fwww.manuale-pdf.it%2F&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;count=true&amp;width=60&amp;hl=it&amp;origin=http%3A%2F%2Fwww.manuale-pdf.it&amp;url=http%3A%2F%2Fwww.manuale-pdf.it%2F&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.bnEFfFZ9cyI.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNaq8ri2P66tzK7chsKcRiE1CsLyQ%2Fm%3D__features__' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://www.manuale-pdf.it/fonctions/prettyPhoto/light_rounded/btnNext.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo medio di lettura del manuale stimato-->
+<thinktime random='true' value='54'/>
+
+
+<!--Si sposta sul sito "http://informatica.abaluth.com/"-->
+<request><http url='http://informatica.abaluth.com/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://informatica.abaluth.com/wp-includes/css/dist/block-library/style.min.css?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/genericons/genericons.css?ver=05.08.2015' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-abaluth/style.css?ver=05.08.2017' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/css/scheme-1.css?ver=05.08.2015' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/inc/css/page.css?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://fonts.googleapis.com/css?family=Open+Sans%7CAlegreya+Sans%7CArchivo+Black:300,400&amp;latin,latin-ext' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://informatica.abaluth.com/wp-content/themes/sg-window/inc/css/one-page.css?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/inc/css/image.css?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/inc/css/button.css?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/inc/css/sidebar-widget.css?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/inc/css/slider.css?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.15' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/genericons/genericons/genericons.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/style.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-includes/js/jquery/jquery.js?ver=1.12.4' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/inc/js/one-page-nav.js?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/inc/js/portfolio-nav.js?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/inc/js/slider.js?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/eu-cookie-law/css/style.css?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/js/navigation.js?ver=2017321' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/js/parallax.js?ver=05.08.2015' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/themes/sg-window/inc/js/image-widget.js?ver=20151012' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-includes/js/wp-embed.min.js?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/plugins/eu-cookie-law/js/scripts.js?ver=3.1.1' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://static.addtoany.com/menu/page.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://informatica.abaluth.com/wp-includes/js/wp-emoji-release.min.js?ver=5.1.10' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/uploads/2015/12/140712_logo-per-sito-150x150.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/immagini/copertine/computerL-min.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/immagini/copertine/sisopL-min.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/immagini/copertine/retiL-min.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/immagini/copertine/internetL-min.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/immagini/copertine/databaseL-min.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/immagini/copertine/javaL-min.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/immagini/copertine/pascalL-min.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/immagini/copertine/cL-min.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/immagini/copertine/vbL-min.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/wp-content/uploads/2017/07/Java.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://fonts.gstatic.com/s/archivoblack/v10/HTxqL289NzCGg4MzN6KJ7eW6CYyF_g.woff2' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/s/alegreyasans/v14/5aUz9_-1phKLFgshYDvh6Vwt7VptvQ.woff2' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/s/opensans/v20/mem8YaGs126MiZpBA-UFVZ0b.woff2' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='https://connect.facebook.net/en_US/sdk.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='https://static.addtoany.com/menu/svg/icons.29.svg.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://informatica.abaluth.com/favicon.ico' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo in cui l'utente cerca la sezione in cui spostarsi 10-->
+<thinktime random='true' value='10'/>
+
+<!--Si sposta alla sezione "sicurezza/attacchi"-->
+<request><http url='/attacchi' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<thinktime random='true' value='2'/>
+
+<request><http url='/attacchi/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='/wp-content/uploads/2016/01/2-nt-USARE-INTERNET-1200.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo stimato affinché trovi la sezione che desidera 15 -->
+<thinktime random='true' value='15'/>
+
+<!--Si sposta alla sezione "sniffing"-->
+<request><http url='http://informatica.abaluth.com/sicurezza/attacchi/sniffing/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='/wp-content/uploads/2016/01/2-nt-USARE-INTERNET-1200-1024x566.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo di lettura stimato 20-->
+<thinktime random='true' value='20'/>
+
+<!--Clicca su "crittografia" -->
+<request><http url='http://informatica.abaluth.com/sicurezza/crittografia/crittografia-e-algoritmi-crittografici/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+
+<!--Tempo di lettura stimato 20-->
+<thinktime random='true' value='20'/>
+
+<!--Si sposta su "reti/livello di trasporto tcp-ip"-->
+<request><http url='http://informatica.abaluth.com/tcpip-livello-di-trasporto' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='/tcpip-livello-di-trasporto/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='/wp-content/uploads/2016/01/COVER02_bn-1200.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo di scelta della sezione 4-->
+<thinktime random='true' value='4'/>
+
+<!--Clicca su "protocollo TCP"-->
+<request><http url='http://informatica.abaluth.com/reti/tcpip-livello-di-trasporto/protocollo-tcp/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='/wp-content/uploads/2016/01/COVER02_bn-1200-1024x783.jpg' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://none/' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo di lettura 300-->
+<thinktime random='true' value='300'/>
+
+</session>

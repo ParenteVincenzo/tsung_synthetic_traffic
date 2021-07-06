@@ -1,0 +1,165 @@
+<session name='visita_e_lettura_documentazione_Tsung' probability='25'  type='ts_http'>
+
+<!-- Home page della documentazione di Tsung -->
+
+<request><http url='http://tsung.erlang-projects.org/user_manual' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='http://tsung.erlang-projects.org/user_manual/_static/css/theme.css' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/css,*/*;q=0.1' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/js/modernizr.min.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/jquery.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/underscore.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/doctools.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/js/theme.js' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/fonts/Lato-Regular.ttf' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/fonts/fontawesome-webfont.woff2?v=4.6.3' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/fonts/Lato-Bold.ttf' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/fonts/RobotoSlab-Bold.ttf' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/fonts/fontawesome-webfont.woff?v=4.6.3' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/favicon.ico' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/fonts/RobotoSlab-Regular.ttf' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!-- Il tempo necessario a scegliere la sezione da aprire-->
+<thinktime random='true' value='3'/>
+
+<!-- Dopo il click su "HTTP related features"-->
+
+<request><http url='/user_manual/features.html' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/fonts/fontawesome-webfont.woff2?v=4.6.3' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!-- Tempo di lettura circa 15 secondi"-->
+<thinktime random='true' value='15'/>
+
+<!-- Dopo il click su "Using the proxy recorder""-->
+<request><http url='/user_manual/proxy.html' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/fonts/fontawesome-webfont.woff2?v=4.6.3' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!-- Tempo di lettura circa 30 secondi"-->
+<thinktime random='true' value='30'/>
+
+<!-- Dopo il click su "understanding tsung.xml configuration file "-->
+
+<request><http url='/user_manual/configuration.html' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/fonts/fontawesome-webfont.woff2?v=4.6.3' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!-- il tempo di cercare nell'indice l'argomento desiderato "-->
+<thinktime random='true' value='2'/>
+
+<!-- Dopo il click su "basic setup"-->
+<request><http url='/user_manual/conf-client-server.html' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/fonts/fontawesome-webfont.woff2?v=4.6.3' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!-- Tempo di lettura stimato circa 12 secondi"-->
+<thinktime random='true' value='12'/>
+
+<!-- Dopo il click su "defining the load progression"-->
+<request><http url='http://tsung.erlang-projects.org/user_manual/conf-load.html' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/fonts/fontawesome-webfont.woff2?v=4.6.3' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!-- Tempo di lettura stimato circa 75 secondi"-->
+<thinktime random='true' value='75'/>
+
+
+<!-- Dopo il click su "Statistic and Report"-->
+<request><http url='/user_manual/reports.html' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_images/tsung-dashboard.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_static/fonts/fontawesome-webfont.woff2?v=4.6.3' version='1.1' method='GET'>
+  <http_header name='Accept' value='*/*' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_images/tsung-report.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_images/tsung-graph.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+<request><http url='/user_manual/_images/connected.png' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+  
+  <!-- Tempo di lettura stimato"-->
+  <thinktime random='true' value='120'/>
+</session>

@@ -1,0 +1,47 @@
+<session name='lezione_fisica_lavoro' probability='25'  type='ts_http'>
+
+<!--L'utente si collega al sito "http://www.fisicapertutti.it/"-->
+<request><http url='http://www.fisicapertutti.it/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='/' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<request><http url='/templates/vertino/images/loading.gif' version='1.1' method='GET'>
+  <http_header name='Accept' value='image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo stimato affinchè clicchi sulla sezione che gli interessa 3 secondi-->
+<thinktime random='true' value='3'/>
+
+<!--Clicca su "lezioni"-->
+<request><http url='/index.php/lezioni' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo stimato affinchè clicchi sulla sezione che gli interessa 7 secondi-->
+<thinktime random='true' value='7'/>
+
+<!--Clicca su "fisica 2"-->
+<request><http url='/index.php/indice-lezioni-fisica-2' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+
+<!--Tempo stimato affinchè clicchi sulla sezione che gli interessa 15 secondi-->
+<thinktime random='true' value='15'/>
+
+<request><http url='/Lezioni/PDF/U-Lezione_20_lavoro.pdf' version='1.1' method='GET'>
+  <http_header name='Accept' value='text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' />
+  <http_header name='Accept-Encoding' value='gzip, deflate' />
+  <http_header name='Accept-Language' value='en-US,en;q=0.9' /></http></request>
+  
+    <!--Tempo di lettura stimato 450 secondi-->
+  <thinktime random='true' value='450'/>
+</session>

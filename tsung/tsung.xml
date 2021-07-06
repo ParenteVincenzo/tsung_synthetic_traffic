@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE tsung SYSTEM "/usr/share/tsung/tsung-1.0.dtd" [
+	<!ENTITY mysession1 SYSTEM "/home/vincenzop/.tsung/sessioniHTTP/visita_e_lettura_documentazione_Tsung.xml">
+	<!ENTITY mysession2 SYSTEM "/home/vincenzop/.tsung/sessioniHTTP/manuale_elettr_e_guida_informatica.xml">
+	<!ENTITY mysession3 SYSTEM "/home/vincenzop/.tsung/sessioniHTTP/meteo_puglianello.xml">
+	<!ENTITY mysession4 SYSTEM "/home/vincenzop/.tsung/sessioniHTTP/meteo_e_notizie.xml">
+	<!ENTITY mysession5 SYSTEM "/home/vincenzop/.tsung/sessioniHTTP/impara_html.xml">
+	<!ENTITY mysession6 SYSTEM "/home/vincenzop/.tsung/sessioniHTTP/lezione_fisica_lavoro.xml">
+	<!ENTITY mysession7 SYSTEM "/home/vincenzop/.tsung/sessioniHTTP/lezione_fisica_impulso.xml">
+	<!ENTITY mysession8 SYSTEM "/home/vincenzop/.tsung/sessioniHTTP/sinonimi_e_contrari.xml">
+	<!ENTITY mysession9 SYSTEM "/home/vincenzop/.tsung/sessioniHTTP/articolo_astronomico_e_sinonimi.xml">
+	<!--<!ENTITY mysession10 SYSTEM "/home/vincenzop/.tsung/sessioniHTTP/">-->
+]>
+
+<tsung loglevel="info" version="1.0" dumptraffic="protocol">
+
+  <!-- Client side setup -->
+  <clients>
+    <client host="localhost" use_controller_vm="true"/>
+  </clients>
+ 
+ <!--Questa parte sarà sovrascritta, in quanto nelle sessioni sono esplicitati gli url dei siti visitati-->
+  <servers>
+    <server host="myserver" port="443" type="ssl"></server>
+  </servers>
+
+  <load duration="10" unit="minute" >
+  <!-- possono essere settate diverse fasi di arrivo degli utenti: per ogni fase, è possibile
+  settare il tempo medio di arrivo degli utenti e la durata delle singole fasi.
+  Inoltre, è possibile settare anche la durata globale del test -->
+   <arrivalphase phase="1" duration="10" unit="second">
+     <users interarrival="2" unit="second"></users>
+   </arrivalphase>
+  </load>
+
+  <!-- Inizio delle sessioni HTTP. Le sessioni sono definite ognuna in un file .xml a parte
+  e a ciascuna sessione è assegnata una probabilità. La somma totale delle probabilità deve essere pari a 100 -->
+  
+ <sessions>
+   <!-- In questa sessione viene simulata la lettura della documentazione del tool Tsung all'url 
+   "http://tsung.erlang-projects/user_manual" -->  
+   &mysession1;
+   &mysession2; 
+   &mysession3;
+   &mysession4;
+   &mysession5;
+   &mysession6;
+   &mysession7;
+   &mysession8;
+   &mysession9;
+   <!--&mysession10;-->
+ </sessions>
+</tsung>
